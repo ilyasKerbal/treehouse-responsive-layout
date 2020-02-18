@@ -10,18 +10,20 @@
 </head>
 <body>
     <header class="main-header">
-        <div class="wrapper">
+        <div class="wrapper clearfix">
             <h1 class="name"><a href="#">Ilyas Kerbal</a></h1>
             <nav>
                 <ul class="main-nav">
                     <li><a href="#">Home</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
-            <div class="banner">
-                <p>I am a mobile developer. I have started learning programming since 2007. My first language was PHP. Currently, I am learning the basics of front-end web developments. I love to build things and automate my daily tasks using what I have learned. </p>
+        </div>
+        <div class="wrapper">
+            <div class="banner clearfix">
                 <img alt="profile avatar image" src="images/responsive-layout-profile.png">
+                <p>I am a mobile developer. I have started learning programming since 2007. My first language was PHP. Currently, I am learning the basics of front-end web developments. I love to build things and automate my daily tasks using what I have learned. </p>
             </div>
         </div>
     </header>
@@ -29,7 +31,7 @@
         <div class="wrapper">
             <section id="portfolio">
                 <h2>Portfolio</h2>
-                <div class="grid">
+                <div class="grid clearfix">
                     <div class="item">
                         <img alt="Marketing page" src="images/portfolio-1.png">
                         <h3>Marketing Page</h3>
@@ -65,7 +67,7 @@
         </div>
     </main>
     <footer>
-        <div class="wrapper">
+        <div class="wrapper clearfix">
             <section id="contact">
                 <h2>Contact</h2>
                 <p>If you're interested in chatting or want more information about what I've been working on; I'd love to hear from you!</p>
@@ -77,11 +79,11 @@
             <nav>
                 <ul class="footer-nav">
                     <li><a href="#">Home</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
-            <a href="#top">Back to Top</a>
+            <a class="top-link" href="#top">Back to Top</a>
         </div>
     </footer>
 </body>
